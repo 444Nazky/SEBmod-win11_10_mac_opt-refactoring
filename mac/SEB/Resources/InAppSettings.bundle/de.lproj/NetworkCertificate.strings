@@ -1,0 +1,39 @@
+/* (No Comment) */
+"Certificates" = "Zertifikate";
+
+/* (No Comment) */
+"Choose Identity" = "Identität wählen";
+
+/* (No Comment) */
+"Cryptographic identities (X.509 certificates with RSA public key and associated private key, which are stored securely in the Keychain) embedded into a client config file can be used to decrypt exam config files on clients." = "In eine Client-Konfigurationsdatei eingebettete kryptografische Identitäten (X.509-Zertifikate mit öffentlichem RSA-Schlüssel und zugehörigem privaten Schlüssel, die sicher im Schlüsselbund gespeichert sind) können zur Entschlüsselung von Prüfungskonfigurationsdateien auf Clients verwendet werden.";
+
+/* (No Comment) */
+"Embed Identity Certificates" = "Identitätszertifikate einbetten";
+
+/* (No Comment) */
+"Embed in SEB desktop version" = "In SEB-Desktop-Version einbetten";
+
+/* String for Title elements */
+"Embed Server Certificates" = "Server-Zertifikate einbetten";
+
+/* (No Comment) */
+"Embedded Certificates" = "Eingebettete Zertifikate";
+
+/* (No Comment) */
+"List of all embedded certificates in the current config file, sorted by type. Debug certificates can currently only be added in SEB desktop versions." = "Liste aller eingebetteten Zertifikate in der aktuellen Konfigurationsdatei, sortiert nach Typ. Debug-Zertifikate können derzeit nur in SEB-Desktop-Versionen hinzugefügt werden.";
+
+/* String for Title elements */
+"Add Server Certificate" = "Server-Zertifikat hinzufügen";
+
+/* (No Comment) */
+"Add Certificate from URL…" = "Zertifikat über URL hinzufügen…";
+
+/* String for FooterText elements */
+"Enter a server's URL to fetch the TLS/SSL certificate chain it presents, then choose which certificates to embed: the server (leaf) certificate as a TLS/SSL pin and/or an issuer certificate as a CA anchor. Verify the displayed SHA-256 fingerprint out of band before embedding. Requires iOS 15 or newer." = "Geben Sie die URL eines Servers ein, um die von ihm präsentierte TLS/SSL-Zertifikatskette abzurufen, und wählen Sie dann, welche Zertifikate eingebettet werden sollen: das Server-Zertifikat (Leaf) als TLS/SSL-Pin und/oder ein Aussteller-Zertifikat als CA-Anker. Überprüfen Sie den angezeigten SHA-256-Fingerabdruck über einen separaten Kanal, bevor Sie einbetten. Erfordert iOS 15 oder neuer.";
+
+/* (No Comment) */
+"Pin Certificates" = "Zertifikate pinnen";
+
+/* String for FooterText elements */
+"Self-signed TLS/SSL/CA certificates have to be embedded into config files to allow accessing a secure server. With certificate pinning, the iOS certificate store is bypassed and only embedded certificates establish trust for https connections." = "Selbstsignierte TLS/SSL/CA-Zertifikate müssen in Konfigurationsdateien eingebettet werden, um den Zugriff auf einen sicheren Server zu ermöglichen. Mit Zertifikats-Pinning wird der iOS-Zertifikatspeicher umgangen und für https-Verbindungen wird nur eingebetteten Zertifikaten vertraut.";
+

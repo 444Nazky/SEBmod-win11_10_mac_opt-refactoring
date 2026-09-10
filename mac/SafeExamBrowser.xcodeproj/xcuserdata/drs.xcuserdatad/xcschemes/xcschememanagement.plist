@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SEB Develop.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>SEB Development.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>SEB-iOS Development.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>SEB-iOS Enterprise.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SEB-iOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SEB.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>SEBTests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>SEBVerificator.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>Safe Exam Browser ETH.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>7</integer>
+		</dict>
+		<key>Safe Exam Browser Release.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Safe Exam Browser copy.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>Safe Exam Browser.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6940B9651BA0F2FB008C8CFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6940B9801BA0F2FB008C8CFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6940B98B1BA0F2FB008C8CFC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>694215B6214544AB002EB416</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6949B31B14F40AAD009E1775</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69903AF214CD7624007E7DF7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69B1714B20FE2D95004BD0FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69CFF9FE1D3641B500FE5655</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69D02480287C68E5006CEC19</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69D02490287C68E7006CEC19</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69D0249A287C68E7006CEC19</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69D3C4A827A0366400890B31</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>69F7B5FA14F411FB00FD0761</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
