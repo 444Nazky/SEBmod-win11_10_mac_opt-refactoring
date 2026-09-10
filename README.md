@@ -1,29 +1,44 @@
-# Safe Exam Browser, Version 3.x
+# SEBmod — Refactored Safe Exam Browser
 
-Refactored version of Safe Exam Browser for Windows with Chromium as integrated browser engine.
+[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg?style=for-the-badge)](https://opensource.org/licenses/MPL-2.0)
+[![Platform - Windows](https://img.shields.io/badge/Platform-Windows_10_%7C_11-0078D4?style=for-the-badge&logo=windows)](https://microsoft.com)
+[![Platform - macOS](https://img.shields.io/badge/Platform-macOS-000000?style=for-the-badge&logo=apple)](https://apple.com)
 
-## Requirements
+Refactored and optimized version of **Safe Exam Browser** featuring an integrated Chromium engine and updated multi-platform support.
 
-> [!NOTE]  
-> Starting with version 3.8.0, Safe Exam Browser for Windows requires a minimum operating system version of **Windows 10 version 1803**.
+---
 
-Safe Exam Browser for Windows requires the prerequisites listed below in order to work correctly. These are automatically installed with the setup bundle and need only be manually installed when using the MSI packages.
+## 📦 Access & Downloads
 
-* .NET Framework 4.8 Runtime: https://dotnet.microsoft.com/download/dotnet-framework/net48
-* Visual C++ 2015-2022 Redistributable: https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist
+Modded files and binaries are hosted via Google Drive:
 
-## Project Status
+🔗 **[Download Modded Files (Google Drive)](https://drive.google.com/file/d/1DErsvb3QfmOQ-S_Pyr0ypL0W3vTrWSAJ/view?usp=drive_link)**
 
-> [!WARNING]
-> **The builds linked below are for testing purposes only.** They may be unstable and should thus _never_ be used in a production environment! Always use the latest, official release version of SEB.
+> **Note:** Contact Nazky on Teams if you require access permissions or technical assistance with the custom builds.
 
-| Aspect            | Status                                                                                                                | Details                                                         |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| Development Build | ![Development Build Status](https://sebdev.ethz.ch/api/projects/status/kq78qrjtnpk82ti0?svg=true)                     | https://sebdev.ethz.ch/project/appveyor/seb-win-refactoring     |
-| Test Build        | ![Test Build Status](https://ci.appveyor.com/api/projects/status/a56akt9r174570m7?svg=true)                           | https://ci.appveyor.com/project/dbuechel/seb-win-refactoring    |
-| Test Run          | ![AppVeyor Tests](https://img.shields.io/appveyor/tests/dbuechel/seb-win-refactoring?logo=appveyor&logoColor=%23ccc)  | https://ci.appveyor.com/project/dbuechel/seb-win-refactoring    |
-| Code Coverage     | ![Code Coverage](https://codecov.io/gh/SafeExamBrowser/seb-win-refactoring/branch/master/graph/badge.svg)             | https://codecov.io/gh/SafeExamBrowser/seb-win-refactoring       |
-| Issue Status      | ![GitHub Issues](https://img.shields.io/github/issues/safeexambrowser/seb-win-refactoring?logo=github)                | https://github.com/SafeExamBrowser/seb-win-refactoring/issues   |
-| Downloads         | ![GitHub All Releases](https://img.shields.io/github/downloads/safeexambrowser/seb-win-refactoring/total?logo=github) | https://github.com/SafeExamBrowser/seb-win-refactoring/releases |
-| Development       | ![GitHub Last Commit](https://img.shields.io/github/last-commit/safeexambrowser/seb-win-refactoring?logo=github)      | n/a                                                             |
-| Repository Size   | ![GitHub Repo Size](https://img.shields.io/github/repo-size/safeexambrowser/seb-win-refactoring?logo=github)          | n/a                                                             |
+---
+
+## 🛠 System Requirements & Dependencies
+
+### Windows
+- **Minimum OS:** Windows 10 (Version 1803) / Windows 11
+- **[.NET Framework 4.8 Runtime](https://dotnet.microsoft.com/download/dotnet-framework/net48)**
+- **[Visual C++ 2015–2022 Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist)**
+
+### macOS
+- **Minimum OS:** macOS 11.0 (Big Sur) or newer
+- **Xcode 14.3+** (for building from source)
+
+---
+
+## 📂 Repository Layout
+
+```plaintext
+.
+├── base/                 # Base SEB core components and wrappers
+├── imp/                  # Refactored implementation modules
+├── mac/                  # macOS native controllers & Swift/Obj-C code
+├── moddedfiles.seb       # Custom SEB configuration / mod profile
+├── SafeExamBrowser.sln   # Main Visual Studio solution file
+├── appveyor-release.yml  # AppVeyor CI/CD release workflow
+└── appveyor-test.yml     # AppVeyor CI/CD testing workflow
