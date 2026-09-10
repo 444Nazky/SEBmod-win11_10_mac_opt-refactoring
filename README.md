@@ -42,3 +42,4 @@ Modded files and binaries are hosted via Google Drive:
 ├── SafeExamBrowser.sln   # Main Visual Studio solution file
 ├── appveyor-release.yml  # AppVeyor CI/CD release workflow
 └── appveyor-test.yml     # AppVeyor CI/CD testing workflow
+contributor
